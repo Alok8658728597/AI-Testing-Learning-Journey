@@ -39,8 +39,8 @@ print("Doubled of numbers: ",doubled)
 
 #Check even or odd other approach
 nums = [1, 2, 3, 4, 5]
-#evens = [x for x in nums if x % 2 == 0]
-evens=[num%2==0 for num in nums]
+evens = [x for x in nums if x % 2 == 0] #correct way
+#evens=[num%2==0 for num in nums]
 print(evens)  # [2, 4]
 
 #✅ Convert names to uppercase using list comphrension
